@@ -797,6 +797,7 @@ class NFTOrchestrator:
                 {
                     "role": "system",
                     "content": """You are an NFT Query Orchestrator. You analyze user queries and route them to the appropriate specialized agent:
+NOTE: Since you are connected to a frontend, you will also receive information about the wallet which is connected, so please don't stress too much about it until and unless you are asked something related to it
 
 **Available Agents:**
 1. **NFT Gaming Agent** - Handles gaming metrics, game contracts, player activity, gaming performance, gaming collections
